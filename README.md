@@ -1,4 +1,4 @@
-Key-Points
+Key-Points(Just The basics)
 * Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your apps.
 
 * The architcture of an Angular relies on cerrain fumdamental concepts. The basic building blocks are Ngmodules. NgModules collect related code into functional sets; an Angular app is defined by a set of NgModules. An app always has at least a root module that enables bootstrapping, and typically has many more feature modules.
@@ -24,3 +24,4 @@ Key-Points
     * Click links on the page and the browser navigates to a new page.
 
     * Click the browser's back and forward buttons and the browser navigates backward and forward through the history of pages you've seen.
+
