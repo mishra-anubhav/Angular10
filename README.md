@@ -14,3 +14,13 @@ Key-Points
 * Property binding lets you interpolate values that are computed from your application data into the HTML.
 
 * templates can use pipes to improve the user experience by transforming values for display. For example, use pipes to display dates and currency values that are appropriate for a user's locale. Angular provides predefined pipes for common transformations, and you can also define your own pipes.
+
+* For data or logic that isn't associated with a specific view, and that you want to share across components, you create a service class. A service class definition is immediately preceded by the @Injectable() decorator. The decorator provides the metadata that allows other providers to be injected as dependencies into your class.
+
+* The Angular Router NgModule provides a service that lets you define a navigation path among the different application states and view hierarchies in your app. It is modeled on the familiar browser navigation conventions:
+
+    * Enter a URL in the address bar and the browser navigates to a corresponding page.
+
+    * Click links on the page and the browser navigates to a new page.
+
+    * Click the browser's back and forward buttons and the browser navigates backward and forward through the history of pages you've seen.
