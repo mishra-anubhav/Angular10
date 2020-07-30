@@ -25,3 +25,6 @@ Key-Points(Just The basics)
 
     * Click the browser's back and forward buttons and the browser navigates backward and forward through the history of pages you've seen.
 
+* Angular loads as a collection of JavaScript modules. You can think of them as library modules. Each Angular library name begins with the @angular prefix. Install them with the node package manager npm and import parts of them with JavaScript import statements.
+
+* Angular libraries are NgModules, such as FormsModule, HttpClientModule, and RouterModule. Many third-party libraries are available as NgModules such as Material Design, Ionic, and AngularFire2
